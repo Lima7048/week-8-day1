@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>{children}</body>
       <nav>nav</nav>
       <Link href="/posts/1">Post 1</Link>
-      <footer>Bibbles foot</footer>
+      <footer className="absolute bottom-0 left-0">Bibbles foot</footer>
 
     </div>
   );
